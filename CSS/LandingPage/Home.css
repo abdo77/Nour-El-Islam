@@ -1,0 +1,59 @@
+.aboutUs-section{
+    padding-top: 130px;
+    background-image: url(../../CSS/Assests/WhatsApp\ Image\ 2024-08-02\ at\ 18.59.10_ff2672dc.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+}
+@font-face {
+    font-family: 'bold inter';
+    src: url(../../CSS/Assests/static/Inter_28pt-ExtraBold.ttf);
+}
+.aboutUs-section .firstCol h1{
+    font-size: 50px;
+}
+.FindProgarmsBtn , .seeMore-Btn{
+    background-color: goldenrod;
+    border-radius: 8px !important;
+}
+.animationDiv{
+    z-index: 1;
+    transition: all .8s ease-in-out;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+.theAcademic-section .img-container{
+    backdrop-filter: blur(20px) ;
+    background-image: url(../../CSS/Assests/Modern\ Mosque\ \(1\).jpeg);
+    background-size:cover;
+    background-position: center center;
+}
+.theAcademic-section .img-container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+ z-index: 1;
+    height: 100%;
+    background-color: #00000075;
+}
+.theAcademic-section .container{
+    z-index: 2;
+}
+.academicPack {
+    border-radius: 10px;
+    
+}
+.academicPack i{
+    color: goldenrod;
+}
+.academicPack .subscribeBtn{
+    border: 2px solid goldenrod;
+    color:goldenrod
+}
+.academicPack .subscribeBtn:hover{
+    background-color: goldenrod;
+    color: white;
+}
