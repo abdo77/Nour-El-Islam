@@ -11,15 +11,36 @@ jQuery(document).ready(function() {
     $(' .animationDiv').removeClass('opacity-0')
     
 
-    $(".owl-carousel").owlCarousel({
+    
+
+    $(".ourFeatures").owlCarousel({
         items:1 ,
         loop:true,
+        autoplay:true,
         responsiveClass:true,
         responsive:{
             950 :{
                 items:3,
             }
         }
+    });
+    $(".payment-method-slider").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        responsiveClass:true,
+        responsive:{
+            950 :{
+                items:3,
+            }
+        }
+    });
+    $("#productsSliders").owlCarousel({
+        items:1 ,
+        loop:true,
+        autoplay:true,
+        responsiveClass:true,
+        
     });
 
 })
