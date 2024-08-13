@@ -67,10 +67,15 @@ header .menuBtn div{
 }
 
 @media all and (min-width: 950px){
+    
     header.shadow-sm{
-        box-shadow: none !important;
+        box-shadow: none !important ;
     }
-
+    header.scrolling{
+        background-color:rgba(255,255,255,.7)!important;
+        backdrop-filter:blur(20px);
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    }
 }
 
 @media all and (max-width: 950px){

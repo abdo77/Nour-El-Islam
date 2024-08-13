@@ -57,3 +57,30 @@
     background-color: goldenrod;
     color: white;
 }
+
+.visitors-section .container{
+    backdrop-filter: blur(20px) ;
+    background-image: url(../../CSS/Assests/download\ \(1\)\ \(1\).jpeg);
+    background-size:cover;
+    background-position: center center;
+    border-radius: 10px;
+    padding: 100px 50px;
+}
+.visitors-section .container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+ z-index: 1;
+    height: 100%;
+    background-color: #ffffff5a;
+}
+
+
+@media all and (max-width: 950px){
+    
+    .owl-item .w-75{
+        width: 100% !important;
+    }
+}

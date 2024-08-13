@@ -5,12 +5,14 @@ jQuery(document).ready(function() {
     
         if( ( scrollPos >100 )  ) {
             $('header').removeClass('py-3')
-            $('header').css('background-color','rgba(255,255,255,.7)!important')
-            $('header').css('backdrop-filter',' blur(20px)')    
+            $('header').addClass('scrolling')    
+            
         }       
         else{
-            $('header').addClass('py-3')    
+            $('header').addClass('py-3')
+            $('header').removeClass('scrolling')    
         }
+        
         
     
     });
