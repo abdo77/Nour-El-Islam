@@ -23,6 +23,9 @@
     opacity: 0;
 }
 
+.top-60{
+    top: 60px !important;
+}
 .theAcademic-section .img-container{
     backdrop-filter: blur(20px) ;
     background-image: url(../../CSS/Assests/Modern\ Mosque\ \(1\).jpeg);

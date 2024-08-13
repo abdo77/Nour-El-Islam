@@ -2,7 +2,8 @@ body{
     font-family: 'Inter','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 600;
     letter-spacing: 1.5px;
-    height: 900px;
+    width: 100%;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: 'Inter';
@@ -60,6 +61,11 @@ header .menuBtn div{
     height: 4px;
     width: 30px;
     background-color: #c2c2c2;
+}
+
+main{
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .main-font{
