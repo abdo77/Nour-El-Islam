@@ -1,0 +1,29 @@
+main{
+    padding-top: 200px;
+}
+/* main input{
+    padding-left: 50px;
+} */
+main input:focus{
+    border-color: goldenrod !important;
+
+}
+main input.ps-4{
+ padding-left: 2rem !important;   
+}
+body[dir="rtl"] main input.ps-4{
+    padding-right: 2rem !important;   
+}
+.main-font1{
+    font-size: 0.781rem;
+}
+.animationDiv{
+    z-index: 1;
+    transition: all .8s ease-in-out;
+}
+.opacity-0{
+    opacity: 0;
+}
+.top-60{
+    top: 60px !important;
+}
