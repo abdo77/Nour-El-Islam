@@ -4,8 +4,12 @@ main{
 /* main input{
     padding-left: 50px;
 } */
+main input{
+    border: 0px !important;
+    border-bottom: 2px solid !important;
+}
 main input:focus{
-    border-color: goldenrod !important;
+    border-bottom: 2px solid goldenrod !important;
 
 }
 main input.ps-4{

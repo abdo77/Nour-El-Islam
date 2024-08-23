@@ -1,0 +1,19 @@
+main{
+    padding-top: 200px;
+}
+.bg-image{
+    background-image: url(../../CSS/Assests/download\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card{
+    border-radius: 10px !important;
+}
+main .form-control{
+    border-bottom: 2px solid !important;
+    transition: all .2s ease-in-out;
+}
+main .form-control:focus{
+    border-bottom: 2px solid goldenrod !important;
+}
