@@ -1,0 +1,12 @@
+main{
+    padding-top: 200px;
+}
+.links a{
+    transition: all .3s ease-in-out;
+}
+.links a:hover{
+    color: black !important;
+}
+main .form-control:focus , main .form-select:focus{
+    border-color: goldenrod;
+}

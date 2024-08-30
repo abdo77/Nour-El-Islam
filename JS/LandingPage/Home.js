@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
             loop:true,
             autoplay:true,
             responsiveClass:true,
-            
+            dots:false
         });
     
         

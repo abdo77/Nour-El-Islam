@@ -1,0 +1,21 @@
+main{
+    padding-top: 200px;
+}
+main .container{
+    max-width: 1100px;
+}
+#FAQS{
+    padding: 50px 0px;
+}
+main .card-header h5.collapsed i.fa-minus{
+    display: none;
+}
+main .card-header h5.collapsed i.fa-plus{
+    display: block;
+}
+main .card-header h5:not(.collapsed) i.fa-minus{
+    display: block;
+}
+main .card-header h5:not(.collapsed) i.fa-plus{
+    display: none;
+}
