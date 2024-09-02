@@ -1,0 +1,42 @@
+main{
+    padding-top: 200px;
+}
+.switch{
+    width: 60px;
+    height: 30px;
+    padding: 3px ;
+    border-radius: 20px;
+    background-color: #c2c2c2;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.switch div{
+    height: 24px;
+    width: 24px;
+    transition: all .3s ease-in-out;
+}
+.switch.switched{
+    background-color: goldenrod;
+}
+table td , table th{
+    padding: 15px 0px !important;
+    font-weight: 600;
+    font-size: 15px !important;
+}
+table th , table thead{
+    font-weight: bold !important;
+    font-family: 'Inter light bold';
+    font-size: 17px !important;
+}
+.customCard{
+    border-radius: 20px !important;
+    background-image: url(../../CSS/Assests/WhatsApp\ Image\ 2024-08-02\ at\ 18.59.10_ff2672dc.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+}
+.customCard .bg-img{
+    border-radius: 20px;
+    
+    background-image: url('../Assests/download\ \(2\).jpeg');
+    background-size: cover;
+}
