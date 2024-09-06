@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/shared/owlCarousel.css">
+    <link rel="stylesheet" href="../../CSS/LandingPage/shared.css">
+    <link rel="stylesheet" href="../../CSS/LandingPage/addCart.css">
+</head>
+<body dir="ltr" class="d-flex flex-column">
+    <!-- Header -->
+    <header class="position-fixed collapsed  top-0 w-100 start-0 py-3 shadow-sm">
+        <div class="container d-flex align-items-center p-2 ">
+            <div class="logo-container">
+                <a href="">
+                    <img src="../../CSS/Assests/WhatsApp Image 2024-07-30 at 09.08.31_28db843e.png"  alt="">
+                </a>
+            </div>
+            <ul class="nav navbar ms-auto me-0 d-flex align-items-center">
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">About</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">Services</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="contactUS.html">Contact Us</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">Pricing</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="FAQ.html">FAQ</a>
+                </li>
+                <li class="nav-item position-relative mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2" href="#">EN <i style="font-size: 12px;" class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu d-block shadow border-0 lang-container position-absolute rounded-3 p-1 top-100 start-0">
+                        <a href="" class="dropdown-item rounded-3">
+                            FR  
+                        </a>
+                        <a href="" class="dropdown-item rounded-3">
+                            FR  
+                        </a>
+                        <a href="" class="dropdown-item rounded-3">
+                            FR  
+                        </a>
+                        <a href="" class="dropdown-item rounded-3">
+                            FR  
+                        </a>
+                    </ul>
+                </li>
+                <li class="nav-item ms-4">
+                    <a href="" class="d-block btn rounded-3 shadow getStartedLink  text-decoration-none text-dark p-2 px-3 fw-bold text-white rpl rpl-dark" href="">Get Started</a>
+                </li>
+            </ul>
+            <button class="btn menuBtn text-center shadow-none border-0 ms-auto p-1">
+                <div class="my-1 mt-0"></div>
+                <div class="my-1 w-75 mx-auto"></div>
+                <div class="my-1 mb-0"></div>
+            </button>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="overflow-hidden">
+        <!-- <h1 class="text-center" style="font-family: 'bold Inter';font-size: 50px;">
+            Nour El Islam Products
+        </h1>
+        <p class="text-muted main-font text-center" style="font-family: 'Inter light bold';">
+            Lorem ipsum dolor sit amet consectetur  
+        </p>
+         -->
+    <div class="container" style="max-width: 1100px;">
+        <div class="row mx-0 my-5 allItemsContainer">
+            <div class="col-12 my-2 singleItem">
+                <div class="rounded-3 row mx-0 shadow p-3">
+                    <div class="col-lg-2 col-12 bg-light shadow imgContainer rounded-3 p-2 text-center">
+                        <img src="../../CSS/Assests/pngtree-blue-perfume-bottle-transparent-background-png-image_12272680.png" alt="" class="w-auto">
+                    </div>
+                    <div class="col-lg-10 col-12 px-4 py-3 py-lg-0">
+                        <div class="d-flex align-items-center">
+                            <h5 style="font-family: 'Inter light bold';" class="fw-bold">
+                                Black Basic Tshirt
+                            </h5>
+                            <h4 class="price ms-auto" style="font-family: 'Inter light bold';">
+                                <sup>$</sup>50
+                            </h4>
+                        </div>
+                        <p class="mainFont mb-2" style="font-family: 'Inter light bold';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam est dignissimos </p>
+                        <div class="rounded-circle p-1 border" style="width: 30px;height: 30px;">
+                            <div style="background-color: black;" class="rounded-circle shadow w-100 h-100">
+
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items center mainFont my-2  itemCounter w-100 p-1 me-3 px-4 bg-light rounded-pill shadow" style="max-width: 150px;"> 
+                                <button class="bg-transparent border-0 increase"> <i class="fa fa-plus"></i></button>
+                                <span class="mx-auto" style="font-family: 'Inter light bold';">1</span>
+                                <button class="bg-transparent border-0 me-0 decrease"> <i class="fa fa-minus"></i></button>
+                            </div>
+                            <div class="mainFont">
+                                Only <span style="color: goldenrod;">12 Item</span> left!
+                            </div>
+                            <button style="font-family: 'Inter light bold';" class="btn border-2 rpl-dark rpl rounded-pill border-danger text-danger ms-auto me-0 shadow px-4 mainFont py-2">
+                                Remove Item
+                            </button>
+                        </div>
+                        <div class="productRate main-font my-2" style="color: goldenrod;">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span class="ms-2 text-dark">(121)</span>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-2 singleItem">
+                <div class="rounded-3 row mx-0 shadow p-3">
+                    <div class="col-lg-2 col-12 bg-light shadow p-2 imgContainer rounded-3 text-center">
+                        <img src="../../CSS/Assests/purepng.com-men-t-shirtclothingmen-t-shirtfashion-dress-shirt-cloth-tshirt-631522326839zoswy.png" alt="" class="w-auto">
+                    </div>
+                    <div class="col-lg-10 col-12 px-4 py-3 py-lg-0">
+                        <div class="d-flex align-items-center">
+                            <h5 style="font-family: 'Inter light bold';" class="fw-bold">
+                                Black Basic Tshirt
+                            </h5>
+                            <h4 class="price ms-auto" style="font-family: 'Inter light bold';">
+                                <sup>$</sup>50
+                            </h4>
+                        </div>
+                        <p class="mainFont mb-2" style="font-family: 'Inter light bold';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam est dignissimos </p>
+                        <div class="rounded-circle p-1 border" style="width: 30px;height: 30px;">
+                            <div style="background-color: black;" class="rounded-circle shadow w-100 h-100">
+
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items center mainFont my-2  itemCounter w-100 p-1 me-3 px-4 bg-light rounded-pill shadow" style="max-width: 150px;"> 
+                                <button class="bg-transparent border-0 increase"> <i class="fa fa-plus"></i></button>
+                                <span class="mx-auto" style="font-family: 'Inter light bold';">1</span>
+                                <button class="bg-transparent border-0 me-0 decrease"> <i class="fa fa-minus"></i></button>
+                            </div>
+                            <div class="mainFont">
+                                Only <span style="color: goldenrod;">12 Item</span> left!
+                            </div>
+                            <button style="font-family: 'Inter light bold';" class="btn border-2 rpl-dark rpl rounded-pill border-danger text-danger ms-auto me-0 shadow px-4 mainFont py-2">
+                                Remove Item
+                            </button>
+                        </div>
+                        <div class="productRate main-font my-2" style="color: goldenrod;">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span class="ms-2 text-dark">(121)</span>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0">
+            <div class="col-12 text-center">
+                <button class="btn rounded-pill p-2 px-5 rpl rpl-dark shadow mb-4 fw-bold border-2" style="border-color: goldenrod;color: goldenrod;font-family: 'Inter light bold';">
+                    PayOut
+                </button>
+            </div>
+        </div>
+    </div>
+        
+     </main>
+    <footer class="pt-5 mb-0 mt-auto">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Nour El Islam</h5>
+                        </li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Home</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Contact Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Customes</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Prices</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Nour El Islam</h5>
+                        </li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Home</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Follow Us on</h5>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <a class="text-dark text-decoration-none fs-4 mx-2 ms-0 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a class="text-dark text-decoration-none fs-4 mx-2 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-dark text-decoration-none fs-4 mx-2 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <label style="font-family: 'bold Inter';" class="fs-5 mt-5 mb-2" for="follow">Follow The Best</label>
+                            <div class="input-group w-100 position-relative" style="max-width: 300px;">
+                                <input type="text" class="form-control shadow-none rounded-2 pe-4">
+                                <i class="fa fa-arrow-right position-absolute h-100 end-0 top-0 px-2 d-flex align-items-center " style="cursor: pointer;z-index: 3;">
+
+                                </i>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="copyRights border-top py-4 text-center">
+                © 2024 SolTech. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/LandingPage/shared.js"></script>
+    <script src="../../JS/LandingPage/addCart.js"></script>
+</body>
+</html>

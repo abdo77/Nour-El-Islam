@@ -1,0 +1,11 @@
+main{
+    padding-top: 150px;
+}
+.imgContainer img{
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.mainFont{
+    font-size: 12px;
+}
