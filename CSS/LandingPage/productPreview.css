@@ -1,0 +1,18 @@
+main{
+    padding-top: 150px;
+}
+.pickColor.picked{
+    border-color: goldenrod !important;
+}
+.allColorsImages button{
+    border-color: transparent !important;
+}
+.allColorsImages button.picked{
+    border-color: goldenrod !important;
+}
+
+@media all and (max-width:500px){
+    .allColorsImages{
+        overflow: auto;
+    }
+}

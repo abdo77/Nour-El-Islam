@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
+    <title>Product</title>
     <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../CSS/shared/ripple.css">
     <link rel="stylesheet" href="../../CSS/shared/owlCarousel.css">
     <link rel="stylesheet" href="../../CSS/LandingPage/shared.css">
-    <link rel="stylesheet" href="../../CSS/LandingPage/Products.css">
+    <link rel="stylesheet" href="../../CSS/LandingPage/productPreview.css">
 </head>
 <body dir="ltr" class="d-flex flex-column">
     <!-- Header -->
@@ -74,112 +74,83 @@
         </p>
          -->
     <div class="container" style="max-width: 1100px;">
-        <div dir="ltr" id="productsSliders" class="owl-carousel  mb-5 shadow" >
-            <div class="row my-auto mx-0 w-100" style="background-color: #daa52022;">
-                <div class="col-12 d-none d-lg-block col-lg-6 col-md-6 row-re my-auto animationDiv opacity-0 " >
-                    <h1 style="font-family: 'bold Inter';" class="mb-4">
-                        Perfumes
-                    </h1>
-                    <p class="text-muted ">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, aut? Voluptatibus quis esse ea reprehenderit porro totam veniam quas asperiores minus. Incidunt saepe est molestiae autem numquam dolore porro iure.
-                    </p>
-                    
+        <div class="row mx-0">
+            <div class="col-lg-5 col-md-6 col-12 py-5">
+                <div class="imgPreviewContainer rounded-3 overflow-hidden shadow bg-light p-5 mb-2 text-center">
+                    <img src="../../CSS/Assests/pngtree-blue-perfume-bottle-transparent-background-png-image_12272680.png" alt="" class="h-100">
                 </div>
-                 <div class="col-12 col-lg-6 col-md-6 row-re my-auto text-end animationDiv opacity-0 "><img src="../../CSS/Assests/71b1o02kRaL.png" class="w-auto mx-auto me-lg-0"  alt=""></div>
-            </div>
-          
-          
-            <div class="row my-auto mx-0 w-100" style="background-color: black ;color: white !important;">
-                <div class="col-12 col-lg-6 col-md-6 d-none d-lg-block row-re my-auto animationDiv opacity-0" >
-                    <h1 style="font-family: 'bold Inter';" class="mb-4">
-                        Islamic wear collection
-                    </h1>
-                    <p class="text-muted ">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, aut? Voluptatibus quis esse ea reprehenderit porro totam veniam quas asperiores minus. Incidunt saepe est molestiae autem numquam dolore porro iure.
-                    </p>
-                    
-                </div>
-                 <div class="col-12 col-lg-6 col-md-6 my-auto row-re text-end animationDiv opacity-0"><img src="../../CSS/Assests/0261c539aad3c8ee3c481b6cb705b7d9.png" class="w-auto mx-auto me-lg-0"  alt=""></div>
-            </div>
-            <div class="row my-auto mx-0 w-100" style="background-color: #80008028 ;">
-                <div class="col-12 col-lg-6 col-md-6 d-none d-lg-block row-re my-auto animationDiv opacity-0" >
-                    <h1 style="font-family: 'bold Inter';" class="mb-4">
-                        Islamic wear collection
-                    </h1>
-                    <p class="text-muted ">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, aut? Voluptatibus quis esse ea reprehenderit porro totam veniam quas asperiores minus. Incidunt saepe est molestiae autem numquam dolore porro iure.
-                    </p>
-                    
-                </div>
-                 <div class="col-12 col-lg-6 col-md-6 my-auto row-re text-end animationDiv opacity-0"><img src="../../CSS/Assests/purepng.com-men-t-shirtclothingmen-t-shirtfashion-dress-shirt-cloth-tshirt-631522326839zoswy.png" class="w-auto mx-auto me-lg-0"  alt=""></div>
-            </div>
-          </div>
-          <!-- products header -->
-        <div class="row mx-0 align-items-centeer w-100">
-            <div class="col-lg-7 col-12 my-3 d-flex justify-content-lg-start justify-content-center ps-lg-0">
-                <div class="input-group d-flex align-items-center  shadow px-3 rounded-pill main-font bg-light border-1">
-                    <i class="fa fa-search"></i>
-                    <input type="text" class="form-control shadow-none fw-bold border-0 productSearch bg-light" placeholder="Search...">
-                </div>
-            </div>
-            <div class="col-lg-5 col-12 d-flex align-items-center justify-content-lg-end pe-lg-0 justify-content-center my-3 justify-content-end">
-                <div class="sortMenu d-flex align-items-center position-relative text-decoration-none btn main-font rounded-pill shadow bg-light p-2 px-3 mx-2 fw-bold">
-                    <span>Sort By</span>
-                    <i class="fa-solid fa-caret-down ms-2"></i>
-                    <ul class="menu p-0 position-absolute rounded-3 top-100 w-100 start-0 fw-bold main-font overflow-hidden bg-light rounded-4">
-                        <li>
-                            <button class="btn btnDate shadow-none border-0 fw-bold main-font w-100">
-                                Date
-                            </button>
-                        </li>
-                        <li>
-                            <button class="btn btnPrice shadow-none border-0 fw-bold main-font w-100">
-                                Price
-                            </button>
-            
-                        </li>
-                        <li>
-                            <button class="btn btnRate shadow-none border-0 fw-bold main-font w-100">
-                                Rate
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-                <a href="" class="whishListLink btn shadow-none text-decoration-none mx-1 fw-bold position-relative">
-                    <i class="fa fa-heart"></i>
-                    <div class="rounded-circle bg-danger text-white main-font fw-bold position-absolute top-0 end-0 d-flex p-1 align-items-center justify-content-center" style="font-size: 8px;height: 15px;width: 15px;">
-                        0
+                <div class="row mx-0 flex-nowrap flex-lg-wrap allColorsImages">
+                    <div class="col-3 p-1 ps-0">
+                        <button data-val="black" class=" border-2 picked imgPreviewContainerSmall w-100 rounded-3 overflow-hidden shadow bg-light p-2 mb-2 text-center">
+                            <img src="../../CSS/Assests/pngtree-blue-perfume-bottle-transparent-background-png-image_12272680.png" alt="" class="h-100" style="max-width: 100%;">
+                        </button>
                     </div>
-                </a>
-                <a href="" class="cartLink btn shadow-none text-decoration-none position-relative ms-1 fw-bold">
-                    <i class="fa fa-cart-shopping"></i>
-                    <div class="rounded-circle bg-danger text-white main-font fw-bold position-absolute top-0 end-0 d-flex p-1 align-items-center justify-content-center" style="font-size: 8px;height: 15px;width: 15px;">
-                        1
+                    <div class="col-3 p-1">
+                        <button data-val="purple" class=" border-2 imgPreviewContainerSmall w-100 rounded-3 overflow-hidden shadow bg-light p-2 mb-2 text-center">
+                            <img src="../../CSS/Assests/purepng.com-men-t-shirtclothingmen-t-shirtfashion-dress-shirt-cloth-tshirt-631522326839zoswy.png" alt="" class="h-100" style="max-width: 100%;">
+                    </button>
                     </div>
-                </a>
-            </div>
-            <div class="col-12 px-lg-0 text-lg-start text-center mt-4 fw-bold">
-                <p class="mb-0" style="font-family: 'Inter light bold';">Categories</p>
-                <div class="categoriesContainer d-flex align-items-center flex-nowrap flex-lg-wrap py-4" style="font-family: 'Inter light bold';">
-                    <button class="selected d-flex align-items-center text-decoration-none btn main-font rounded-pill shadow bg-light p-2 px-3 me-2 fw-bold">
-                        <span>All</span>
+                    <div class="col-3 p-1">
+                        <button data-val="green" class=" border-2 imgPreviewContainerSmall w-100 rounded-3 overflow-hidden shadow bg-light p-2 mb-2 text-center">
+                            <img src="../../CSS/Assests/6298b026a65cf80bcf9dce061e9b79c9.png" alt="" class="h-100" style="max-width: 100%;">
                     </button>
-                    <button class=" d-flex align-items-center text-decoration-none btn main-font rounded-pill shadow bg-light p-2 px-3 me-2 fw-bold">
-                        <span>Perfumes</span>
+                    </div>
+                    <div class="col-3 p-1 pe-0">
+                        <button data-val="red" class=" border-2  imgPreviewContainerSmall w-100 rounded-3 overflow-hidden shadow bg-light p-2 mb-2 text-center">
+                            <img src="../../CSS/Assests/6298b026a65cf80bcf9dce061e9b79c9.png" alt="" class="h-100" style="max-width: 100%;">
                     </button>
-                    <button class="d-flex align-items-center text-decoration-none btn main-font rounded-pill shadow bg-light p-2 px-3 me-2 fw-bold">
-                        <span>Tshirts</span>
-                    </button>
+                    </div>
+                    
                 </div>
             </div>
-        </div>  
-        <div class="row mx-0 my-4 allProductsContainerDiv">
-            <div class="col-12 shadow rounded-pill p-2 bg-light noResults main-font1 text-center d-none fw-bold main-font" style="font-family: 'bold Inter';">
-                There is no matchs found
+            <div class="col-lg-7 col-md-6 col-12 px-lg-5 py-5">
+                <h1 class="productName" style="font-family: 'Inter light bold';">Product Name</h1>
+                <p class="text-muted productDetails main-font">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo quis architecto mollitia alias ipsam quasi tempora odio, 
+                </p>
+                <div class="productRate main-font" style="color: goldenrod;">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span class="ms-2 text-dark">(121)</span>          
+                </div>
+                <hr>
+                <h2 class="price" style="font-family: 'Inter light bold';">
+                    <sup>$</sup>50
+                </h2>
+                <p class="main-font fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima neque harum pariatur </p>
+                <hr>
+                <p class="main-font fw-bold" style="font-family: Inter light bold;">
+                    Choose a Color
+                </p>
+                <div class="d-flex align-items-center">
+                    <button data-val="black" class="rounded-circle border border-transparent p-1 pickColor picked mx-1" style="width: 40px;height: 40px;">
+                        <div class="rounded-circle w-100 h-100" style="background-color: black;"></div>
+                    </button>
+                    <button data-val="purple" class="rounded-circle border border-transparent p-1 pickColor mx-1" style="width: 40px;height: 40px;">
+                        <div class="rounded-circle w-100 h-100" style="background-color: purple;"></div>
+                    </button>
+                    <button data-val="green" class="rounded-circle border border-transparent p-1 pickColor mx-1" style="width: 40px;height: 40px;">
+                        <div class="rounded-circle w-100 h-100" style="background-color: green;"></div>
+                    </button>
+                    <button data-val="red" class="rounded-circle border border-transparent p-1 pickColor mx-1" style="width: 40px;height: 40px;">
+                        <div class="rounded-circle w-100 h-100" style="background-color: red;"></div>
+                    </button>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items center  itemCounter w-100 p-2 me-3 px-4 bg-light rounded-pill shadow" style="max-width: 200px;"> 
+                        <button class="bg-transparent border-0 increase"> <i class="fa fa-plus"></i></button>
+                        <span class="mx-auto" style="font-family: 'Inter light bold';">1</span>
+                        <button class="bg-transparent border-0 me-0 decrease"> <i class="fa fa-minus"></i></button>
+                    </div>
+                    <div class="main-font">
+                        Only <span style="color: goldenrod;">12 Item</span> left!
+                    </div>
+                </div>
+                <button class="rounded-pill shadow text-white border-0 p-2 px-4 my-4 fw-bold rpl rpl-dark" style="background-color: goldenrod;">
+                    Add To Cart
+                </button>
             </div>
-            
-        </div> 
-    </div>
+        </div>
+        </div>
         
      </main>
     <footer class="pt-5 mb-0 mt-auto">
@@ -247,6 +218,6 @@
     <script src="../../JS/shared/ripple.js"></script>
     <script src="../../JS/shared/owlCarousel.js"></script>
     <script src="../../JS/LandingPage/shared.js"></script>
-    <script src="../../JS/LandingPage/Products.js"></script>
+    <script src="../../JS/LandingPage/productPreview.js"></script>
 </body>
 </html>

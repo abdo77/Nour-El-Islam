@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
     });
     $('.productsPreviewContainer:first-child').addClass('ps-lg-0');
 
-
+    $('.productsPreview').css('height', $('.productsPreview').css('width'))
     $(window).resize(function() {
         $('.productsPreview').css('height', $('.productsPreview').css('width'))
         console.log($('.productsPreview').css('width'));
