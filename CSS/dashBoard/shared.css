@@ -1,0 +1,158 @@
+html{
+
+    height: 100%;
+}
+.text-primary , .link-primary{
+    color: #624bff !important;
+}
+.bg-soft-primary{
+    background-color: #634bff2e;
+}
+.bg-primary {
+    background-color: #624bff !important;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../Assests/static/Inter_28pt-Light.ttf');
+}
+@font-face {
+    font-family: 'Inter light bold';
+    src: url('../Assests/static/Inter_24pt-Bold.ttf');
+}
+@font-face {
+    font-family: 'bold inter';
+    src: url(../../CSS/Assests/static/Inter_28pt-ExtraBold.ttf);
+}
+.main-font{
+    font-size: 0.8652rem;
+}
+.main-font2{
+    font-size: 0.7652rem;
+}
+body{
+    min-height: 100%;
+}
+
+/* Aside */
+aside .navbar-brand{
+     padding: 1rem 1.5rem 1.5rem; 
+    margin-right: 0;
+    display: block;
+}
+aside .navbar-nav .nav-item .nav-link{
+    
+    color: #919eab !important;
+    padding: .5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.8;
+    -webkit-transition: all .5s;
+    white-space: nowrap;
+    transition: all .5s;
+}
+aside .navbar-nav .nav-item .nav-link.active ,aside .navbar-nav .nav-item .nav-link:hover{
+    color: #f4f6f8 !important;
+    
+}
+aside  .navbar-heading{
+    color: #454f5b;
+    padding: 1rem 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .08rem;
+    font-weight: 700;
+
+}
+aside .navbar-nav .nav-item .nav-item .nav-link {
+    color: #919eab;
+    padding: .25rem 3.2rem !important;
+}
+
+
+aside{
+    height: 100%;
+    max-height: 100%;
+    width: 250px;
+    display: block;
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: #212b36;
+    border-right: 1px solid #212b36;
+    transition: all .25s ease-out;
+}
+aside.closed{
+ left: -250px;   
+}
+aside.closed + main{
+    padding-left: 0px;
+}
+/* MAIN */
+main{
+    padding-left: 250px;
+    transition: all .25s ease-in-out;
+}
+header{
+    padding: .625rem 1.5rem;
+}
+#nav-toggle{
+    color: #454f5b;
+}
+.avatar-md {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.userContainer , .notiContainer{ 
+    background-color: transparent;
+}
+
+.notiMenu .card-body{
+    max-height: 300px;
+    height: 300px;
+}
+.notiMenu a{
+    transition: all .3s ease-in-out;
+}
+.notiMenu .singleNoti a:hover{
+    background-color: #f8f9fa;
+}
+.singleNoti .text-dark{
+    font-weight: 500;
+}
+.notiMenu ,.userMenu{
+    top: 150%;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 320px;
+    transition: all .3s ease-in-out;
+    z-index: 200;
+}
+.userMenu{
+    min-width: 180px;
+}
+.notiMenu.show , .userMenu.show{
+    top: 120%;
+    visibility: visible;
+    opacity: 1;
+}
+.toggleNoti{
+    transition: all .3s ease-in-out;
+}
+.toggleNoti:hover ,.notiMenu.show + .toggleNoti ,.toggleUser:hover ,.userMenu.show + .toggleUser {
+background-color: #cdd0d4 !important;
+}
+.userContainer .userName{
+    font-weight: 500;
+}
+.userMenu ul a{
+padding: .325rem 1.3rem;
+font-weight: 500;
+transition: all .3s ease-in-out;
+}
+.userMenu ul a:hover{
+    background-color: #f4f6f8;
+    color: #624bff !important;
+}

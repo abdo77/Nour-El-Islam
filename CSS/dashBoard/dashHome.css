@@ -1,0 +1,30 @@
+
+.pb-21 {
+    padding-bottom: 9.5rem !important;
+}
+.pt-10 {
+    padding-top: 4rem !important;
+}
+.content{
+    margin-top: -10rem;
+}
+
+.table-container th{
+    color: #637381;
+    font-weight: 500;
+    background-color: #f1f5f9;
+    padding: 15px 10px;
+}
+.table-container td{
+    padding: 15px 10px;
+    font-weight: 500;
+}
+.table-container a:hover{
+    color: #624bff !important;
+}
+.tableSection .card-footer a{
+    font-weight: 600;
+}
+.tableSection .card-footer a:hover{
+    color: #4a37c8 !important;
+}
