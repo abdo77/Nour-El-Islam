@@ -1,0 +1,18 @@
+main{
+    padding-top: 200px;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+.rounded-10{
+    border-radius: 20px;
+}
+.restRules{
+    background-image: url(../../CSS/Assests/download\ \(3\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.restRules .cont{
+    background-color: #0000007d;
+}
