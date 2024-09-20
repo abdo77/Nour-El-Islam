@@ -5,6 +5,9 @@ html{
 .text-primary , .link-primary{
     color: #624bff !important;
 }
+.rounded-20{
+    border-radius: 20px;
+}
 .bg-soft-primary{
     background-color: #634bff2e;
 }
@@ -155,4 +158,25 @@ transition: all .3s ease-in-out;
 .userMenu ul a:hover{
     background-color: #f4f6f8;
     color: #624bff !important;
+}
+
+.avatar-lg{
+    height: 3.5rem;
+    width:  3.5rem;
+}
+.inter{
+    font-family: 'Inter';
+    letter-spacing: 1px;
+}
+.form-select:focus ,.form-control:focus {
+    box-shadow: 0 0 0 .25rem rgba(98,75,255,.25);
+}
+.customfw-bold{
+    font-weight: 600;
+}
+.btn-primary{
+    background-color: #624bff;
+}
+.btn-primary:hover{
+    background-color: #422dc7;
 }

@@ -1,0 +1,8 @@
+.changePicBtn:focus , .RemovePicBtn:focus{
+    background-color: #f4f6f8;
+}
+.changePicBtn:active, .RemovePicBtn:active{
+    background-color: transparent !important;
+    border-color:transparent !important; 
+    color: black !important;
+}

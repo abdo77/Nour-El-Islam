@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/simpleBar.css">
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/shared.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/dashSettings.css">
+</head>
+<body class="bg-light"> 
+    <!-- ASIDE -->
+    <aside>
+        <div class="asideContainer closed">
+            <a class="navbar-brand text-decoration-none text-white" style="font-family: 'bold Inter';" href="/">
+                NOUR EL ISLAM
+            </a>
+            <div class="navbar-nav flex-column  fw-bold main-font">
+                <!-- single Item -->
+                <div class="nav-item"><a class="nav-link active" href="/"><i class="i fa fa-home me-2"></i>Dashboard</a></div>
+                <!-- header items -->
+                <div class="nav-item"><div class="navbar-heading">LAYOUTS &amp; PAGES</div></div>
+                <!-- menu item -->
+                <div class="nav-item main-font">
+                    <a class="nav-link navbar-toggler shadow-none main-font" type="button" data-bs-toggle="collapse" data-bs-target="#pages,.show" aria-expanded="false" aria-label="Toggle navigation" href="#"><i class="i fa fa-home me-2"></i>Pages <i class="fa fa-chevron-down ms-auto main-font2"></i></a>
+                    <ul class="navbar-nav flex-column collapse" id="pages">
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </aside>
+    <!-- MAIN -->
+     <main class="">
+        <!-- header -->
+        <header class="d-flex align-items-center border-bottom bg-white">
+            <button id="nav-toggle" class="nav-icon border-0 bg-transparent me-2 icon-xs"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+            <div class="notiContainer ms-auto border-0 position-relative">
+                <div class="notiMenu position-absolute  end-0">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-header bg-white">
+                            <h6 class="my-2 fw-bold text-start">Notifications</h6>
+                        </div>
+                        <div class="card-body p-1">
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white text-start">
+                            <a href="" class="main-font link-primary text-decoration-none fw-bold text-start my-1 d-block">See all Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleNoti rounded-circle d-flex text-muted justify-content-center align-items-center bg-light">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                
+            </div>
+            <div class="userContainer border-0 position-relative ms-3">
+                <div class="userMenu position-absolute end-0  ">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-body p-0 border-0">
+                            <div class="card-header bg-white border-0">
+                                <p class="userName mb-0 text-dark">
+                                    Ahmed el hosseny
+                                 </p>
+                                 <a href="" class="text-decoration-none main-font2 link-primary">
+                                     view my profile
+                                 </a>
+                                 <hr class="mb-0">
+                            </div>
+                            
+                            <ul class="list-unstyled p-0 main-font">
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-user"></i>
+                                        <span class="mx-auto">
+                                            Edit Profile
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-bar-chart"></i>
+                                        <span class="mx-auto">
+                                            Activity Log
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-gear"></i>
+                                        <span class="mx-auto">
+                                            Settings
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-power-off"></i>
+                                        <span class="mx-auto">
+                                            Log Out
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleUser rounded-circle d-flex text-muted bg-light justify-content-center align-items-center">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+                
+            </div>
+        </header>
+    <!-- body Content -->
+        <!-- SPACE DIV -->
+        <div class="bg-primary pt-10 pb-21"></div>
+                
+        <!-- STAT CARDS -->
+    <div class="content container p-lg-3">
+         <!--general Section  -->
+        <div class="row mx-0 generalSection">
+            <div class="col-lg-3 col-12">
+                <h5>General Settings</h5>
+                <p class="text-muted">Profile configuration settings</p>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="card shadow bg-white border-0 rounded-3 overflow-hidden">
+                    <div class="card-body">
+                            <div class="row mx-0">
+                                <div class="col-12">
+                                    <h5>General Settings</h5>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3 align-items-center">
+                                <div class="col-lg-4 col-12">
+                                    <p class="my-0 fw-bold" style="font-family: 'Inter';">Avatar</p>
+                                </div>
+                                <div class="col-lg-8 col-12 d-flex align-items-center">
+                                    <div class="avatar-lg rounded-circle me-2 overflow-hidden">
+                                        <img src="../../CSS/Assests/360_F_97156022_JDh67aSV5HqqY5c098JNJvZHk7aeWSMg.jpg" class="img-fluid w-100 h-100" alt="">
+                                    </div>
+                                    <button class="changePicBtn main-font shadow-none fw-bold p-2 px-3 me-2 text-muted rounded-3 border btn">
+                                        Change
+                                    </button>
+                                    <input type="file" name="" class="d-none" id="">
+                                    <button class="RemovePicBtn main-font shadow-none fw-bold p-2 px-3 text-muted rounded-3 border btn">
+                                        Remove
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-4">
+                                <div class="col-12">
+                                    <h5>Basic Information</h5>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Full Name</p>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <input type="text" name="" id="" placeholder="First Name" class="form-control border ">
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <input type="text" name="" id="" placeholder="Last Name" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Email</p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <input type="email" name="" id="" placeholder="Emali" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Phone <span class="text-muted">(Optional)</span></p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <input type="tel" name="" id="" placeholder="Phone Number" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Location</p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <select name="" id="" class="form-select text-muted border" >
+                                            <option value="0" class="text-muted" disabled selected>Select Country</option>
+                                            <option value="0">Egypt</option>
+                                            <option value="0">Russia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter customfw-bold my-0">Address 1</p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <input type="text" name="" id="" placeholder="Enter Address line 1" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Address 2</p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <input type="text" name="" id="" placeholder="Enter Address line 2" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                        <p class="inter fw-bold my-0">Zip Code</p>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <input type="text" name="" id="" placeholder="Enter Zip Code" class="form-control border ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 mt-3">
+                                <div class="row mx-0 align-items-center">
+                                    <div class="col-12 col-lg-4 px-0">
+                                
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <button class="btn btn-primary text-white inter customfw-bold shadow-none main-font">
+                                            Save Changes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- email Section -->
+         <div class="row mx-0 emailSection mt-5">
+            <div class="col-lg-3 col-12">
+                <h5>Email Setting</h5>
+                <p class="text-muted">Add an email settings to profile</p>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="card shadow bg-white border-0 rounded-3 overflow-hidden">
+                    <div class="card-body">
+                        <div class="row mx-0">
+                            <div class="col-12">
+                                <h5>Email</h5>
+                            </div>
+                        </div>
+                        <div class="row mx-0 mt-3">
+                            <div class="row mx-0 align-items-center mb-3">
+                                <div class="col-12 col-lg-4 px-0">
+                                    <p class="inter fw-bold my-0">Email</p>
+                                </div>
+                                <div class="col-12 col-lg-8">
+                                    <input type="email" name="" id="" placeholder="Emali" class="form-control border ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mx-0 align-items-center">
+                            <div class="col-12 col-lg-4 px-0">
+                        
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <button class="btn btn-primary text-white inter customfw-bold shadow-none main-font">
+                                    Save Changes
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row mx-0">
+                            <div class="col-12 my-5">
+                                <h5>Change Your Password</h5>
+                            </div>
+                            <div class="row mx-0 align-items-center mb-3">
+                                <div class="col-12 col-lg-4 px-0">
+                                    <p class="inter fw-bold my-0">Current Passowrd</p>
+                                </div>
+                                <div class="col-12 col-lg-8">
+                                    <input type="password" name="" id="" placeholder="Enter Current Passowrd" class="form-control border ">
+                                </div>
+                            </div>
+                            <div class="row mx-0 align-items-center mb-3">
+                                <div class="col-12 col-lg-4 px-0">
+                                    <p class="inter fw-bold my-0">Enter New Passowrd</p>
+                                </div>
+                                <div class="col-12 col-lg-8">
+                                    <input type="password" name="" id="" placeholder="Enter New Passowrd" class="form-control border ">
+                                </div>
+                            </div>
+                            <div class="row mx-0 align-items-center mb-3">
+                                <div class="col-12 col-lg-4 px-0">
+                                    <p class="inter fw-bold my-0">Confirm New Passowrd</p>
+                                </div>
+                                <div class="col-12 col-lg-8">
+                                    <input type="password" name="" id="" placeholder="Confirm New Passowrd" class="form-control border ">
+                                </div>
+                            </div>
+                            <div class="row mx-0 mb-3">
+                                <div class="col-12 col-lg-4"></div>
+                                <div class="col-12 col-lg-8">
+                                    <p class="main-font2 fw-bold mb-2 inter">
+                                        Password requirements:
+                                    </p>
+                                    <p class="inter fw-bold text-muted">
+                                        Ensure that these requirements are met:
+                                    </p>
+                                    <ul class="inter fw-bold main-font text-muted">
+                                        <li>
+                                            Minimum 8 characters long the more, the better
+                                        </li>
+                                        <li>
+                                            At least one lowercase character
+                                        </li>
+                                        <li>
+                                            At least one uppercase character
+                                        </li>
+                                        <li>
+                                            At least one number, symbol, or whitespace character
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary text-white inter customfw-bold shadow-none main-font">
+                                        Save Changes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+         </div>
+         <!-- Delect Account Section -->
+       <div class="row mx-0 delectSection mt-5">
+        <div class="col-lg-3 col-12">
+            <h5>Delete Account</h5>
+            <p class="text-muted">Easily set up social media accounts</p>
+        </div>
+        <div class="col-lg-9 col-12">
+            <div class="card shadow bg-white border-0 rounded-3 overflow-hidden">
+                <div class="card-body">
+                    <div class="row mx-0">
+                        <div class="col-12">
+                            <h5>Danger Zone</h5>
+                        </div>
+                    </div>
+                    <div class="row mx-0 mb-3">
+                        <div class="col-12 text-muted main-font customfw-bold">
+                            Delete any and all content you have, such as articles, comments, your reading list or chat messages. Allow your username to become available to anyone.
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button class="btn btn-danger text-white inter customfw-bold shadow-none main-font">
+                                Delete Account
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+       </div>
+    </div>
+     </main>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/simplebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/dashBoard/shared.js"></script>
+    <script src="../../JS/dashBoard/dashSettings.js"></script>
+</body>
+</html>
