@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/simpleBar.css">
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/shared.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/dashSettings.css">
+</head>
+<body class="bg-light"> 
+    <!-- ASIDE -->
+    <aside>
+        <div class="asideContainer closed">
+            <a class="navbar-brand text-decoration-none text-white" style="font-family: 'bold Inter';" href="/">
+                NOUR EL ISLAM
+            </a>
+            <div class="navbar-nav flex-column  fw-bold main-font">
+                <!-- single Item -->
+                <div class="nav-item"><a class="nav-link active" href="/"><i class="i fa fa-home me-2"></i>Dashboard</a></div>
+                <!-- header items -->
+                <div class="nav-item"><div class="navbar-heading">LAYOUTS &amp; PAGES</div></div>
+                <!-- menu item -->
+                <div class="nav-item main-font">
+                    <a class="nav-link navbar-toggler shadow-none main-font" type="button" data-bs-toggle="collapse" data-bs-target="#pages,.show" aria-expanded="false" aria-label="Toggle navigation" href="#"><i class="i fa fa-home me-2"></i>Pages <i class="fa fa-chevron-down ms-auto main-font2"></i></a>
+                    <ul class="navbar-nav flex-column collapse" id="pages">
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </aside>
+    <!-- MAIN -->
+     <main class="">
+        <!-- header -->
+        <header class="d-flex align-items-center border-bottom bg-white">
+            <button id="nav-toggle" class="nav-icon border-0 bg-transparent me-2 icon-xs"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+            <div class="notiContainer ms-auto border-0 position-relative">
+                <div class="notiMenu position-absolute  end-0">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-header bg-white">
+                            <h6 class="my-2 fw-bold text-start">Notifications</h6>
+                        </div>
+                        <div class="card-body p-1">
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white text-start">
+                            <a href="" class="main-font link-primary text-decoration-none fw-bold text-start my-1 d-block">See all Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleNoti rounded-circle d-flex text-muted justify-content-center align-items-center bg-light">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                
+            </div>
+            <div class="userContainer border-0 position-relative ms-3">
+                <div class="userMenu position-absolute end-0  ">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-body p-0 border-0">
+                            <div class="card-header bg-white border-0">
+                                <p class="userName mb-0 text-dark">
+                                    Ahmed el hosseny
+                                 </p>
+                                 <a href="" class="text-decoration-none main-font2 link-primary">
+                                     view my profile
+                                 </a>
+                                 <hr class="mb-0">
+                            </div>
+                            
+                            <ul class="list-unstyled p-0 main-font">
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-user"></i>
+                                        <span class="mx-auto">
+                                            Edit Profile
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-bar-chart"></i>
+                                        <span class="mx-auto">
+                                            Activity Log
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-gear"></i>
+                                        <span class="mx-auto">
+                                            Settings
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-power-off"></i>
+                                        <span class="mx-auto">
+                                            Log Out
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleUser rounded-circle d-flex text-muted bg-light justify-content-center align-items-center">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+                
+            </div>
+        </header>
+    <!-- body Content -->
+        <!-- SPACE DIV -->
+        <div class="bg-primary pt-10 pb-21"></div>
+                
+        <!-- STAT CARDS -->
+    <div class="content container p-lg-3">
+         <div class="row mx-auto" style="">
+            <div class="col-12 mt-3">
+                <div class="card shadow rounded-20 border-0 overflow-hidden">
+                    <div class="card-body rounded-3 p-4 border-0">
+                        <div class="d-flex align-items-center">
+                            <h5 class="mb-0">Invidual</h5>
+                            <h5 class="mb-0 ms-auto"> <sup>$</sup>5.99</h5>
+                        </div>
+                        <p  class="text-muted my-3 inter fw-bolder main-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam facere earum, error cupiditate unde sit, eveniet beatae id corrupti sunt odit eligendi sed! Labore, sed. Non reiciendis praesentium sequi esse!</p>
+                        <ul class="inter text-muted fw-bolder main-font">
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a href="" class="btn btn-primary ms-auto me-auto rounded-pill px-4 ms-lg-auto me-lg-0  text-white inter fw-bold main-font">
+                                Involve
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="card shadow rounded-20 border-0 overflow-hidden">
+                    <div class="card-body rounded-3 p-4 border-0">
+                        <div class="d-flex align-items-center">
+                            <h5 class="mb-0">Pair</h5>
+                            <h5 class="mb-0 ms-auto"> <sup>$</sup>5.99</h5>
+                        </div>
+                        <p  class="text-muted my-3 inter fw-bolder main-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam facere earum, error cupiditate unde sit, eveniet beatae id corrupti sunt odit eligendi sed! Labore, sed. Non reiciendis praesentium sequi esse!</p>
+                        <ul class="inter text-muted fw-bolder main-font">
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a href="" class="btn btn-primary ms-auto me-auto rounded-pill px-4 ms-lg-auto me-lg-0  text-white inter fw-bold main-font">
+                                Involve
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="card shadow rounded-20 border-0 overflow-hidden">
+                    <div class="card-body rounded-3 p-4 border-0">
+                        <div class="d-flex align-items-center">
+                            <h5 class="mb-0">Group</h5>
+                            <h5 class="mb-0 ms-auto"> <sup>$</sup>5.99</h5>
+                        </div>
+                        <p  class="text-muted my-3 inter fw-bolder main-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam facere earum, error cupiditate unde sit, eveniet beatae id corrupti sunt odit eligendi sed! Labore, sed. Non reiciendis praesentium sequi esse!</p>
+                        <ul class="inter text-muted fw-bolder main-font">
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a href="" class="btn btn-primary ms-auto me-auto rounded-pill px-4 ms-lg-auto me-lg-0  text-white inter fw-bold main-font">
+                                Involve
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+     </main>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/simplebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/dashBoard/shared.js"></script>
+    <script src="../../JS/dashBoard/dashSettings.js"></script>
+</body>
+</html>

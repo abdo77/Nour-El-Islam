@@ -1,0 +1,27 @@
+.daysContainer{
+    min-height: 40px   ;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.daysContainer label{
+    flex: 1;
+    cursor: pointer;
+}
+.daysContainer label.selected{
+    color: #fff !important;
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+.message{
+    transition: all .3s ease-in-out;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 300px;
+
+}
+.message.show{
+    top: 90%;
+}
