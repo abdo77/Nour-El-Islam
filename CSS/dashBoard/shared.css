@@ -168,6 +168,10 @@ transition: all .3s ease-in-out;
     font-family: 'Inter';
     letter-spacing: 1px;
 }
+.interBold{
+    font-family: 'bold Inter';
+    letter-spacing: 0px;
+}
 .form-select:focus ,.form-control:focus {
     box-shadow: 0 0 0 .25rem rgba(98,75,255,.25);
 }
