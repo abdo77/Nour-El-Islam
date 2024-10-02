@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour El Islam</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/simpleBar.css">
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/shared.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/addCourse.css">
+</head>
+<body class="bg-light"> 
+    <!-- ASIDE -->
+    <aside>
+        <div class="asideContainer closed">
+            <a class="navbar-brand text-decoration-none text-white" style="font-family: 'bold Inter';" href="/">
+                NOUR EL ISLAM
+            </a>
+            <div class="navbar-nav flex-column  fw-bold main-font">
+                <!-- single Item -->
+                <div class="nav-item"><a class="nav-link active" href="/"><i class="i fa fa-home me-2"></i>Dashboard</a></div>
+                <!-- header items -->
+                <div class="nav-item"><div class="navbar-heading">LAYOUTS &amp; PAGES</div></div>
+                <!-- menu item -->
+                <div class="nav-item main-font">
+                    <a class="nav-link navbar-toggler shadow-none main-font" type="button" data-bs-toggle="collapse" data-bs-target="#pages,.show" aria-expanded="false" aria-label="Toggle navigation" href="#"><i class="i fa fa-home me-2"></i>Pages <i class="fa fa-chevron-down ms-auto main-font2"></i></a>
+                    <ul class="navbar-nav flex-column collapse" id="pages">
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </aside>
+    <!-- MAIN -->
+     <main class="">
+        <!-- header -->
+        <header class="d-flex align-items-center border-bottom bg-white">
+            <button id="nav-toggle" class="nav-icon border-0 bg-transparent me-2 icon-xs"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+            <div class="notiContainer ms-auto border-0 position-relative">
+                <div class="notiMenu position-absolute  end-0">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-header bg-white">
+                            <h6 class="my-2 fw-bold text-start">Notifications</h6>
+                        </div>
+                        <div class="card-body p-1">
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white text-start">
+                            <a href="" class="main-font link-primary text-decoration-none fw-bold text-start my-1 d-block">See all Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleNoti rounded-circle d-flex text-muted justify-content-center align-items-center bg-light">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                
+            </div>
+            <div class="userContainer border-0 position-relative ms-3">
+                <div class="userMenu position-absolute end-0  ">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-body p-0 border-0">
+                            <div class="card-header bg-white border-0">
+                                <p class="userName mb-0 text-dark">
+                                    Ahmed el hosseny
+                                 </p>
+                                 <a href="" class="text-decoration-none main-font2 link-primary">
+                                     view my profile
+                                 </a>
+                                 <hr class="mb-0">
+                            </div>
+                            
+                            <ul class="list-unstyled p-0 main-font">
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-user"></i>
+                                        <span class="mx-auto">
+                                            Edit Profile
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-bar-chart"></i>
+                                        <span class="mx-auto">
+                                            Activity Log
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-gear"></i>
+                                        <span class="mx-auto">
+                                            Settings
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-power-off"></i>
+                                        <span class="mx-auto">
+                                            Log Out
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleUser rounded-circle d-flex text-muted bg-light justify-content-center align-items-center">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+                
+            </div>
+        </header>
+    <!-- body Content -->
+        <!-- SPACE DIV -->
+        <div class="bg-primary pt-10 pb-21"></div>
+                
+        <!-- STAT CARDS -->
+    <div class="content container p-lg-3">
+       <div class="row mx-0">
+            <div class="col-lg-4 col-12">
+                <div class="card rounded-3 shadow my-4 inter fw-bold overflow-hidden border-0">
+                    <div class="img-fluid">
+                        <img src="../../CSS/Assests/pic2.jpg" class="w-100" style="max-height: 300px;" alt="">
+                    </div>
+                    <div class="card-body py-4 px-4">
+                        <h6 class="mb-0 fw-bold">The Course Name</h6>
+                    </div>
+                </div>
+                <div class="card rounded-3 shadow my-4 inter overflow-hidden border-0">
+                    <div class="card-header bg-white py-4 px-4">
+                        <h6 class="mb-0 fw-bold">About Course</h6>
+                    </div>
+                    <div class="card-body py-4 px-4">
+                        <p class=" main-font2"> numquam doloremque eligendi repudiandae natus adipisci accusantium aliquam sed.</p>
+                        <div class="d-flex main-font2 inter align-items-center border-bottom  fw-bold" style="border-color: #c2c2c2;">
+                            <span class="fw-bold interBold">
+                                Duration :
+                            </span>
+                            <div class="text-dark  ms-auto py-2">
+                                <span>12 Months</span>
+                            </div>
+                        </div>
+                        <div class="d-flex main-font2 inter align-items-center border-bottom  fw-bold" style="border-color: #c2c2c2;">
+                            <span class="interBold">
+                                Professor :
+                            </span>
+                            <div class="text-dark ms-auto py-2">
+                                <span>Jack Ronan</span>
+                            </div>
+                        </div>
+                        <div class="d-flex main-font2 inter align-items-center border-bottom  fw-bold" style="border-color: #c2c2c2;">
+                            <span class="interBold">
+                                Price :
+                            </span>
+                            <div class="text-dark ms-auto py-2">
+                                <span>$ 1500</span>
+                            </div>
+                        </div>
+                        <div class="d-flex main-font2 inter align-items-center border-bottom  fw-bold" style="border-color: #c2c2c2;">
+                            <span class="fw-bold interBold">
+                                Date
+                            </span>
+                            <div class=" ms-auto py-2">
+                                07 August 2024 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white p-0 row mx-0">
+                        <div class="col-4 py-4 text-center">
+                            <h5 class="interBold text-primary">07</h5>
+                            <p class="main-font2 fw-bold mb-0">Years</p>
+                        </div>
+                        <div class="col-4 py-4 border-start border-end text-center">
+                            <h5 class="interBold text-primary">240</h5>
+                            <p class="main-font2 fw-bold mb-0">Students</p>
+                        </div>
+                        <div class="col-4 py-4 text-center">
+                            <h5 class="interBold text-primary">05</h5>
+                            <p class="main-font2 fw-bold mb-0">Batches</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="card shadow border-0 overflow-hidden my-4">
+                    <div class="card-body">
+                        <p class="inter fw-bold main-font2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consectetur explicabo dicta laudantium ducimus, voluptatum, suscipit ad sapiente voluptatem, at quasi officia veritatis exercitationem officiis. Nesciunt nobis impedit fugit earum.
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, expedita. Tenetur aperiam accusantium, fugit, at quo asperiores, deserunt doloribus quam voluptas excepturi optio illum eum saepe aliquam. Sunt, veniam in!
+                            <br>
+                            <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nesciunt provident fuga sequi repudiandae error atque blanditiis, adipisci laudantium veritatis laborum eum commodi quis dolores quam, eveniet veniam! Quis, hic!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus neque perspiciatis nisi, provident error quae? Exercitationem, dolorum reiciendis tempora quae quia, commodi ipsam aut quam distinctio perferendis nulla ullam magni.
+                        </p>
+                        <h6 class="text-primary interBold mt-5 mb-3">
+                            Language
+                        </h6>
+                        <div class="d-flex">
+                            <div class="badge bg-soft-primary text-primary me-1 ">
+                                English
+                            </div>
+                            <div class="badge bg-soft-primary text-primary mx-1">
+                                French
+                            </div>
+                            <div class="badge bg-soft-primary text-primary mx-1">
+                                Arabic
+                            </div>
+                        </div>
+
+                        <h6 class="text-primary interBold mt-5 mb-3">
+                            Courses Information
+                        </h6>
+                        <p class="inter fw-bold main-font2 py-3 border-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium enim nemo facilis amet reiciendis at repellat, illo sit quibusdam ut voluptatum eaque temporibus, officia sapiente asperiores nesciunt laborum quas.
+                        </p>
+                        <p class="inter fw-bold main-font2 py-3 border-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium enim nemo facilis amet reiciendis at repellat, illo sit quibusdam ut voluptatum eaque temporibus, officia sapiente asperiores nesciunt laborum quas.
+                        </p>
+                        <p class="inter fw-bold main-font2 py-3 border-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium enim nemo facilis amet reiciendis at repellat, illo sit quibusdam ut voluptatum eaque temporibus, officia sapiente asperiores nesciunt laborum quas.
+                        </p>
+                        <p class="inter fw-bold main-font2 py-3 border-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium enim nemo facilis amet reiciendis at repellat, illo sit quibusdam ut voluptatum eaque temporibus, officia sapiente asperiores nesciunt laborum quas.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+     </main>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/simplebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/dashBoard/shared.js"></script>
+    <script src="../../JS/dashBoard/aboutCourse.js"></script>
+</body>
+</html>
