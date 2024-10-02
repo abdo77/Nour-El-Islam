@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour El Islam</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/simpleBar.css">
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/shared/default.css">
+    <link rel="stylesheet" href="../../CSS/shared/default.date.css">
+    <link rel="stylesheet" href="../../CSS/shared/default.time.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/shared.css">
+    <link rel="stylesheet" href="../../CSS/dashBoard/addCourse.css">
+</head>
+<body class="bg-light"> 
+    <!-- ASIDE -->
+    <aside>
+        <div class="asideContainer closed">
+            <a class="navbar-brand text-decoration-none text-white" style="font-family: 'bold Inter';" href="/">
+                NOUR EL ISLAM
+            </a>
+            <div class="navbar-nav flex-column  fw-bold main-font">
+                <!-- single Item -->
+                <div class="nav-item"><a class="nav-link active" href="/"><i class="i fa fa-home me-2"></i>Dashboard</a></div>
+                <!-- header items -->
+                <div class="nav-item"><div class="navbar-heading">LAYOUTS &amp; PAGES</div></div>
+                <!-- menu item -->
+                <div class="nav-item main-font">
+                    <a class="nav-link navbar-toggler shadow-none main-font" type="button" data-bs-toggle="collapse" data-bs-target="#pages,.show" aria-expanded="false" aria-label="Toggle navigation" href="#"><i class="i fa fa-home me-2"></i>Pages <i class="fa fa-chevron-down ms-auto main-font2"></i></a>
+                    <ul class="navbar-nav flex-column collapse" id="pages">
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/">Dashboard</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </aside>
+    <!-- MAIN -->
+     <main class="">
+        <!-- header -->
+        <header class="d-flex align-items-center border-bottom bg-white">
+            <button id="nav-toggle" class="nav-icon border-0 bg-transparent me-2 icon-xs"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+            <div class="notiContainer ms-auto border-0 position-relative">
+                <div class="notiMenu position-absolute  end-0">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-header bg-white">
+                            <h6 class="my-2 fw-bold text-start">Notifications</h6>
+                        </div>
+                        <div class="card-body p-1">
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="singleNoti border-top border-bottom text-start">
+                                <a href="#" class="p-2 d-block text-decoration-none">
+                                    <p class=" text-dark mb-1">
+                                        Notification Title
+                                    </p>
+                                    <p class="text-muted main-font">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur earum,
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white text-start">
+                            <a href="" class="main-font link-primary text-decoration-none fw-bold text-start my-1 d-block">See all Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleNoti rounded-circle d-flex text-muted justify-content-center align-items-center bg-light">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                
+            </div>
+            <div class="userContainer border-0 position-relative ms-3">
+                <div class="userMenu position-absolute end-0  ">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-body p-0 border-0">
+                            <div class="card-header bg-white border-0">
+                                <p class="userName mb-0 text-dark">
+                                    Ahmed el hosseny
+                                 </p>
+                                 <a href="" class="text-decoration-none main-font2 link-primary">
+                                     view my profile
+                                 </a>
+                                 <hr class="mb-0">
+                            </div>
+                            
+                            <ul class="list-unstyled p-0 main-font">
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-user"></i>
+                                        <span class="mx-auto">
+                                            Edit Profile
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-bar-chart"></i>
+                                        <span class="mx-auto">
+                                            Activity Log
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-gear"></i>
+                                        <span class="mx-auto">
+                                            Settings
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        <i class="fa fa-power-off"></i>
+                                        <span class="mx-auto">
+                                            Log Out
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleUser rounded-circle d-flex text-muted bg-light justify-content-center align-items-center">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+                
+            </div>
+        </header>
+    <!-- body Content -->
+        <!-- SPACE DIV -->
+        <div class="bg-primary pt-10 pb-21"></div>
+                
+        <!-- STAT CARDS -->
+    <div class="content container p-lg-3">
+       <div class="row mx-0">
+            <div class="card rounded-3 shadow border-0 p-0 overflow-hidden">
+                <div class="card-header bg-white py-4">
+                    <h5 class="inter fw-bold my-0">
+                        Courses Details
+                    </h5>
+                </div>
+                <div class="card-body border-0">
+                    <form action="" class="">
+                        <div class="row mx-0">
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="name" class="fw-bold d-block my-2">
+                                        Course Name
+                                    </label>
+                                    <input type="text" name="name" placeholder="Course Name" class="form-control rounded-3 main-font shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="code" class="fw-bold d-block my-2">
+                                        Course Code
+                                    </label>
+                                    <input type="text" name="code" placeholder="Course Code" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="code" class="fw-bold d-block my-2">
+                                        Course Details
+                                    </label>
+                                    <textarea name="" class="form-control main-font shadow-none fw-bold my-2" rows="5" placeholder="Course Details" id=""></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="startform" class="fw-bold d-block my-2">
+                                        Start Form
+                                    </label>
+                                    <div class="position-relative">
+                                        <input type="text" name="startform" placeholder="Start From" class="form-control position-relative bg-white datepicker main-font rounded-3 shadow-none w-100">
+                                        <i class="fa-regular fa-calendar position-absolute d-flex align-items-center " style="right: 10px; top: 0 ;bottom: 0 ;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="Duration" class="fw-bold d-block my-2">
+                                        Course Duration
+                                    </label>
+                                    <input type="text" name="Duration" placeholder="Course Duration" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="price" class="fw-bold d-block my-2">
+                                        Course Price
+                                    </label>
+                                    <input type="text" name="price" placeholder="Course Price" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="pName" class="fw-bold d-block my-2">
+                                        Professor Name
+                                    </label>
+                                    <input type="text" name="pName" placeholder="Professor Name" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="MaximumStudents" class="fw-bold d-block my-2">
+                                        Maximum Students
+                                    </label>
+                                    <input type="text" name="MaximumStudents"  placeholder="Maximum Students" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 py-1">
+                                <div class=" main-font2 inter">
+                                    <label for="ContactNumber" class="fw-bold d-block my-2">
+                                        Contact Number
+                                    </label>
+                                    <input type="text" name="ContactNumber"  placeholder="Contact Number" class="form-control main-font rounded-3 shadow-none w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="main-font2 inter">
+                                    <label for="ContactNumber" class="fw-bold d-block my-2">
+                                        Contact Photo
+                                    </label>
+                                    <input type="file" name="" class="form-control shadow-none main-font" id="">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary main-font fw-bold inter shadow px-3 my-3">
+                                    Submit
+                                </button>
+                                <button class="btn btn-outline-danger mx-2 main-font fw-bold inter shadow px-3 my-3">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+       </div>
+    </div>
+     </main>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/simplebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/shared/picker.js"></script>
+    <script src="../../JS/shared/picker.date.js"></script>
+    <script src="../../JS/shared/picker.time.js     "></script>
+    <script src="../../JS/dashBoard/shared.js"></script>
+    <script src="../../JS/dashBoard/addCourse.js"></script>
+</body>
+</html>

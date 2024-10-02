@@ -1,0 +1,126 @@
+.form-control:focus {
+    border-color: #624bff;
+}
+.picker .picker__frame {
+    min-width: 28.125rem;
+    max-width: 28.125rem;
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    margin-bottom: 0 !important;
+    bottom: auto !important;
+    font-weight: bold !important;
+}
+.picker .picker__frame .picker__box .picker__header .picker__year {
+    color: #6a73fa;
+    font-style: inherit;
+    font-size: 1.25rem;
+}
+.picker .picker__frame .picker__box .picker__table .picker__day.picker__day--highlighted {
+    border: 0 !important;
+    padding: 0;
+    background-color: #6a73fa;
+    color: #fff !important;
+}
+.picker .picker__frame .picker__box .picker__table .picker__day {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 3.125rem;
+    padding: 0 !important;
+    color: black;
+    font-size: 0.765rem;
+    line-height: 2.5rem;
+    margin: auto;
+    border: 0 !important;
+}
+.picker .picker__frame .picker__box .picker__table .picker__day.picker__day--infocus {
+    font-weight: bold;
+}
+.picker .picker__frame .picker__box .picker__footer button {
+    transition: 0.4s;
+}
+.picker .picker__frame .picker__box .picker__footer .picker__button--today {
+    background-color: #6a73fa;
+    color: #fff !important;
+}
+.picker .picker__frame .picker__box .picker__footer .picker__button--clear, .picker .picker__frame .picker__box .picker__footer .picker__button--close, .picker .picker__frame .picker__box .picker__footer .picker__button--today {
+    border: 0;
+    border-radius: 0.125rem;
+    font-size: 0.765rem;
+}
+.picker .picker__frame .picker__box .picker__footer .picker__button--clear, .picker .picker__frame .picker__box .picker__footer .picker__button--close {
+    background-color: white;
+    color: black;
+}
+.picker .picker__frame .picker__box {
+    background: white;
+    padding: 1.25rem;
+    border: 0;
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1);
+}
+.picker .picker__frame .picker__box .picker__header .picker__nav--next:after {
+    content: "\f0da";
+}
+.picker .picker__frame .picker__box .picker__header .picker__nav--prev:after, .picker .picker__frame .picker__box .picker__header .picker__nav--next:after {
+    font-family: "Font Awesome 5 Free";
+    border: 0;
+    margin: 0 auto;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+.picker__month, .picker__year {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
+    font-size: 1.3rem;
+}
+.picker .picker__frame .picker__box .picker__header .picker__year {
+    color: #6a73fa;
+    font-style: inherit;
+    font-size: 1.1rem;
+}
+.picker .picker__frame .picker__box .picker__header .picker__nav--prev:after {
+    content: "\f0d9";
+}
+.picker__header {
+    
+    margin-top: .0;
+}
+.picker .picker__frame .picker__box .picker__table .picker__day:hover {
+    background-color: #624bff;
+    color: #fff !important;
+}
+.picker__nav--prev:before, .picker__nav--next:before {
+    display: none;
+}
+.picker .picker__frame .picker__box .picker__header .picker__nav--prev, .picker .picker__frame .picker__box .picker__header .picker__nav--next {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    line-height: 2.5rem;
+    border-radius: 0.125rem;
+    
+}
+.picker .picker__frame .picker__box .picker__header .picker__nav--prev:hover, .picker .picker__frame .picker__box .picker__header .picker__nav--next:hover {
+    background-color: #624bff;
+    color: #fff;
+}
+.picker__nav--next {
+    right: 0;
+    border-radius: 5px !important;
+    padding-left: 1.25em;
+}
+.picker__nav--prev {
+    left: 0;
+    padding-left: 1.25em;
+    border-radius: 5px !important;
+}
+.picker__day--outfocus {
+    color: #989898 !important;
+}
+.picker__day--today:before {
+    display: none;
+}
+.picker__button--today:before {
+    display: none;
+}
