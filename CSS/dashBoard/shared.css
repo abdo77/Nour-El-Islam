@@ -35,6 +35,9 @@ html{
 .main-font2{
     font-size: 0.7652rem;
 }
+.main-font3{
+    font-size: 0.6652rem;
+}
 body{
     min-height: 100%;
 }
@@ -45,6 +48,7 @@ aside .navbar-brand{
     margin-right: 0;
     display: block;
 }
+
 aside .navbar-nav .nav-item .nav-link{
     
     color: #919eab !important;
@@ -86,6 +90,7 @@ aside{
     bottom: 0;
     left: 0;
     padding: 0;
+    z-index: 1000;
     background-color: #212b36;
     border-right: 1px solid #212b36;
     transition: all .25s ease-out;
@@ -190,4 +195,22 @@ transition: all .3s ease-in-out;
 }
 .btn-primary:hover{
     background-color: #422dc7;
+}
+.bg-soft-success{
+    background-color: #a1f3cd!important;
+}
+.bg-soft-danger{
+    background-color: rgb(244, 151, 151);
+}
+@media all and (max-width : 600px){
+    main {
+        padding-left: 0px;
+        transition: all .25s ease-in-out;
+    }
+    aside:not(.closed) + main header .notiContainer ,aside:not(.closed) + main  header .userContainer{
+        display: none;
+    }
+    aside:not(.closed) + main header #nav-toggle{
+        margin-left: auto;
+    }
 }
