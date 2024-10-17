@@ -1,0 +1,27 @@
+.progress{
+    position: relative;
+    overflow: hidden;
+    height: 15px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+.progress-bar.down{
+    background-color: #1654c8;
+}
+.progress-bar.up{
+    background-color: rgb(248, 110, 60);
+}
+.apexcharts-tooltip {
+    background: white;
+  }
+  .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background-color: white !important;
+}
+.apexcharts-tooltip-marker{
+    width: 3.5px !important;
+    border-radius: 2px !important;
+    height: 30px !important;
+    
+}
+.apexcharts-tooltip-text-y-label{
+    display: none !important;
+}
