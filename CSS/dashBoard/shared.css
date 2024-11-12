@@ -120,7 +120,7 @@ header{
     width: 3rem;
     height: 3rem;
 }
-.userContainer , .notiContainer{ 
+.userContainer , .notiContainer , .langContainer{ 
     background-color: transparent;
 }
 
@@ -137,7 +137,7 @@ header{
 .singleNoti .text-dark{
     font-weight: 500;
 }
-.notiMenu ,.userMenu{
+.notiMenu ,.userMenu , .language{
     top: 150%;
     visibility: hidden;
     opacity: 0;
@@ -145,10 +145,10 @@ header{
     transition: all .3s ease-in-out;
     z-index: 200;
 }
-.userMenu{
+.userMenu , .language{
     min-width: 180px;
 }
-.notiMenu.show , .userMenu.show{
+.notiMenu.show , .userMenu.show, .language.show{
     top: 120%;
     visibility: visible;
     opacity: 1;
@@ -156,18 +156,18 @@ header{
 .toggleNoti{
     transition: all .3s ease-in-out;
 }
-.toggleNoti:hover ,.notiMenu.show + .toggleNoti ,.toggleUser:hover ,.userMenu.show + .toggleUser {
+.toggleNoti:hover ,.notiMenu.show + .toggleNoti ,.toggleUser:hover ,.userMenu.show + .toggleUser ,.language.show + .toggleLang ,.toggleLang:hover {
 background-color: #cdd0d4 !important;
 }
 .userContainer .userName{
     font-weight: 500;
 }
-.userMenu ul a{
+.userMenu ul a , .language ul a{
 padding: .325rem 1.3rem;
 font-weight: 500;
 transition: all .3s ease-in-out;
 }
-.userMenu ul a:hover{
+.userMenu ul a:hover , .language ul a:hover{
     background-color: #f4f6f8;
     color: #624bff !important;
 }
@@ -205,12 +205,49 @@ transition: all .3s ease-in-out;
 @media all and (max-width : 600px){
     main {
         padding-left: 0px;
+        padding-right: 0px !important;
         transition: all .25s ease-in-out;
     }
-    aside:not(.closed) + main header .notiContainer ,aside:not(.closed) + main  header .userContainer{
+    aside:not(.closed) + main header .notiContainer ,aside:not(.closed) + main  header .userContainer ,aside:not(.closed) + main  header .langContainer{
         display: none;
     }
     aside:not(.closed) + main header #nav-toggle{
         margin-left: auto;
+        margin-right: 0;
     }
+    body[dir="rtl"] aside:not(.closed) + main header #nav-toggle{
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+
+
+body[dir="rtl"]{
+    aside{
+        height: 100%;
+        max-height: 100%;
+        width: 250px;
+        display: block;
+        position: fixed !important;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        padding: 0;
+        z-index: 1000;
+        background-color: #212b36;
+        border-right: 1px solid #212b36;
+        transition: all .25s ease-out;
+    }
+    aside.closed{
+        right: -250px;   
+       }
+       aside.closed + main{
+           padding-right: 0px;
+       }
+       main{
+        padding-left: 0px;
+        padding-right: 250px;
+       }
 }

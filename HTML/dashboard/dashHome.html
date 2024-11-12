@@ -43,7 +43,46 @@
         <!-- header -->
         <header class="d-flex align-items-center border-bottom bg-white">
             <button id="nav-toggle" class="nav-icon border-0 bg-transparent me-2 icon-xs"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
-            <div class="notiContainer ms-auto border-0 position-relative">
+            <div class="langContainer border-0 position-relative ms-auto me-3">
+                <div class="language position-absolute end-0  ">
+                    <div class="card shadow rounded-3 border-0 overflow-hidden">
+                        <div class="card-body p-0 border-0">
+                          
+                            <ul class="list-unstyled p-0 main-font mb-0">
+                                <li>
+                                    <a href="#" id="Arabic" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        
+                                        <span class="mx-auto">
+                                            Arabic
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="English" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        
+                                        <span class="mx-auto">
+                                            English
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="Frensh" class="text-decoration-none d-block text-dark d-flex align-items-center">
+                                        
+                                        <span class="mx-auto">
+                                            Frensh
+                                        </span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="avatar-md border-0 toggleLang rounded-circle d-flex text-muted justify-content-center align-items-center bg-light">
+                    <i class="fa fa-language"></i>
+                </button>
+            </div>
+            <div class="notiContainer  border-0 position-relative">
                 <div class="notiMenu position-absolute  end-0">
                     <div class="card shadow rounded-3 border-0 overflow-hidden">
                         <div class="card-header bg-white">
@@ -157,6 +196,7 @@
                 </button>
                 
             </div>
+            
         </header>
     <!-- body Content -->
         <!-- SPACE DIV -->
@@ -249,131 +289,158 @@
             </div>
         </div>
         <!-- Table Container -->
-        <div class="row mx-0 mt-5 tableSection">
-            <div class="col-12">
-                <div class="card rounded-3 shadow overflow-hidden border-0">
-                    <div class="card-header bg-white">
-                        <h5 class="card-title my-2">Active Projects</h5>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="table-container">
-                            <table class="w-100">
-                                <thead>
-                                    <tr>
-                                        <th>Project name</th>
-                                        <th>Hours</th>
-                                        <th>priority</th>
-                                        <th>Members</th>
-                                        <th>Progress</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar-md me-3 border rounded-2 border-dark d-flex align-items-center justify-content-center">
-                                                    <i class="fa-brands fa-dropbox"></i>
-                                                </div>
-                                                <a href="" class="text-decoration-none text-dark">Dropbox Design System</a>
-                                            </div>
-                                        </td>
-                                        <td>34</td>
-                                        <td><span class="badge bg-warning text-white fw-bold main-font2">meduim</span></td>
-                                        <td>100+</td>
-                                        <td><div class="d-flex align-items-center">
-                                            <span class="me-2">2%</span> <div class="progress rounded-pill" style="width:70px;height: 7px;"><div class="progress-bar" style="width: 2%;"></div></div>
-                                        </div></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+        <div class="row mx-0 flex-lg-row flex-sm-column-reverse mt-2">
+            <!-- Posts -->
+            
+            <row class="mx-0  col-12">
+                <div class="  row mx-0">
+                <!-- Table Container -->
+                <div class="row col-lg-7 col-12 mx-0 mt-5 tableSection">
+                    <div class="col-12 mt-2">
+                        <div class="card rounded-3 shadow overflow-hidden border-0">
+                            <div class="card-header bg-white">
+                                <h5 class="card-title my-2">Active courses</h5>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-container">
+                                    <table class="w-100">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Level</th>
+                                                <th>Teacher</th>
+                                                <th>Group</th>
+                                                <th>Type</th>
+                                                <th>Hours</th>
+                                                <th>Status</th>
+                                                <th>Dates</th>
+                                                <th>Progress</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tableBody">
+                                       
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- <div class="card-footer text-center bg-white">
+                                <a href="" class="text-primary main-font">View All courses</a>
+                            </div> -->
                         </div>
                     </div>
-                    <div class="card-footer text-center bg-white">
-                        <a href="" class="text-primary main-font">View All Projects</a>
+                
+            
+                    <!-- Chart Container -->
+                    <div class="  col-12 mt-2">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-header bg-white border-0">
+                                <h5 class="card-title my-2">Tasks Performance</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="tasksChart"></div>
+                            </div>
+                            <div class="card-footer border-0 bg-white py-3">
+                                <div class="row mx-0">
+                                    <div class="col-4 text-center">
+                                        <i class="fa-regular fa-check-circle text-success fs-4"></i>
+                                        <h1 class="fw-bold my-2">76%</h1>
+                                        <span class="text-muted" style="font-weight: 500;">
+                                            Completed
+                                        </span>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <i class="fa fa-arrow-trend-up text-warning fs-4"></i>
+                                        <h1 class="fw-bold my-2">76%</h1>
+                                        <span class="text-muted" style="font-weight: 500;">
+                                            Completed
+                                        </span>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <i class="fa fa-arrow-trend-down text-danger fs-4"></i>
+                                        <h1 class="fw-bold my-2">76%</h1>
+                                        <span class="text-muted" style="font-weight: 500;">
+                                            Completed
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Secont Table -->
+        
+                    <div class="  col-12 mt-2">
+                        <div class="card rounded-3 shadow overflow-hidden border-0">
+                            <div class="card-header bg-white">
+                                <h5 class="card-title my-2">Teams</h5>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-container">
+                                    <table class="w-100">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Role</th>
+                                                <th>Last Activity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="avatar-md me-3 text-muted rounded-circle bg-light   rounded-2 border-dark d-flex align-items-center justify-content-center">
+                                                            <i class="fa fa-user"></i>
+                                                        </div>
+                                                        <div>
+                                                            <p class="Name text-dark mb-0 main-font">Ahmed Elhosseny</p>
+                                                            <p class="email text-muted mb-0 main-font2">AhmedElhoseeny@gmail.com</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td><span class="text-muted main-font">Front End Developer</span>	</td>
+                                                <td><span class="text-muted main-font">3 May, 2023</span></td>
+        
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center bg-white">
+        
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <!-- Chart Container -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="card border-0 rounded-3 shadow overflow-hidden">
-                    <div class="card-header bg-white border-0">
-                        <h5 class="card-title my-2">Tasks Performance</h5>
-                    </div>
-                    <div class="card-body">
-                        <div id="tasksChart"></div>
-                    </div>
-                    <div class="card-footer border-0 bg-white py-3">
-                        <div class="row mx-0">
-                            <div class="col-4 text-center">
-                                <i class="fa-regular fa-check-circle text-success fs-4"></i>
-                                <h1 class="fw-bold my-2">76%</h1>
-                                <span class="text-muted" style="font-weight: 500;">
-                                    Completed
-                                </span>
+                <div class="col-lg-5 col-12 mt-5 mx-auto">
+                    <ul class="p-0 list-unstyled">
+                        <li class="card shadow rounded-3 my-2">
+                            <div class="card-body">
+                                <h4 class="fw-bold">WEEKLY LESSONS</h4>
                             </div>
-                            <div class="col-4 text-center">
-                                <i class="fa fa-arrow-trend-up text-warning fs-4"></i>
-                                <h1 class="fw-bold my-2">76%</h1>
-                                <span class="text-muted" style="font-weight: 500;">
-                                    Completed
-                                </span>
+                        </li>
+                        <li class="card shadow rounded-3 my-3 overflow-hidden">
+                            <div class="card-body overflow-hidden position-relative">
+                                <div class="flash">
+                                    
+                                </div>
+                                <div class="flash-icon">
+                                    <i class="fa fa-bolt-lightning position-absolute  m-auto"></i>
+                                </div>
+                                <p class="fw-bold  my-0">Arabic Lesson</p>
+                                <p class="text-muted main-font fw-bold my-0">10:00 AM - 13 Dec,2023</p>
                             </div>
-                            <div class="col-4 text-center">
-                                <i class="fa fa-arrow-trend-down text-danger fs-4"></i>
-                                <h1 class="fw-bold my-2">76%</h1>
-                                <span class="text-muted" style="font-weight: 500;">
-                                    Completed
-                                </span>
+                        </li>
+                        <li class="card shadow rounded-3 my-3 overflow-hidden">
+                            <div class="card-body overflow-hidden position-relative">
+                                <p class="fw-bold  my-0">Arabic Lesson</p>
+                                <p class="text-muted main-font fw-bold my-0">10:00 AM - 13 Dec,2023</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Secont Table -->
-
-            <div class="col-lg-8 col-md-6 col-12">
-                <div class="card rounded-3 shadow overflow-hidden border-0">
-                    <div class="card-header bg-white">
-                        <h5 class="card-title my-2">Teams</h5>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="table-container">
-                            <table class="w-100">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Role</th>
-                                        <th>Last Activity</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar-md me-3 text-muted rounded-circle bg-light   rounded-2 border-dark d-flex align-items-center justify-content-center">
-                                                    <i class="fa fa-user"></i>
-                                                </div>
-                                                <div>
-                                                    <p class="Name text-dark mb-0 main-font">Ahmed Elhosseny</p>
-                                                    <p class="email text-muted mb-0 main-font2">AhmedElhoseeny@gmail.com</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td><span class="text-muted main-font">Front End Developer</span>	</td>
-                                        <td><span class="text-muted main-font">3 May, 2023</span></td>
-                                        
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card-footer text-center bg-white">
+                        </li>
                         
-                    </div>
-                </div>
+                    </ul>
             </div>
+                </div>
+                
+            </row>
         </div>
     </div>
      </main>
