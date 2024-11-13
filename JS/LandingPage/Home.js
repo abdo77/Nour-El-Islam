@@ -1,8 +1,6 @@
 jQuery(document).ready(function() {
     setTimeout(() => {
-        $('.menuBtn').click(function() {
-            $('header').toggleClass('collapsed')
-        })
+        
         
         
     
