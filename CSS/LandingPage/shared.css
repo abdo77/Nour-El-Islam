@@ -82,6 +82,16 @@ main{
 .main-font{
     font-size: 0.8652rem;
 }
+.main-font1{
+    font-size: 0.7652rem;
+}
+.main-font2{
+    font-size: 0.6652rem;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+
 @font-face {
     font-family: 'bold inter';
     src: url(../../CSS/Assests/static/Inter_28pt-ExtraBold.ttf);

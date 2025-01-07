@@ -2,6 +2,17 @@ jQuery(document).ready(function() {
     setTimeout(() => {
         
         
+        $('.videoCover').click(function(){
+            $(this).addClass('hide');
+            $('#video').get(0).play()
+        })
+        $('#video').click(function(){
+            $('#video').get(0).pause()
+            $('#video').on('pause', function() {
+                //Actions when video pause selected
+                $('.videoCover').removeClass('hide');
+              });
+        })
         
     
         

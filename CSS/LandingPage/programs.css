@@ -1,0 +1,65 @@
+.aboutUs-section{
+    padding-top: 130px;
+    background-image: url(../../CSS/Assests/WhatsApp\ Image\ 2024-08-02\ at\ 18.59.10_ff2672dc.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+}
+@font-face {
+    font-family: 'bold inter';
+    src: url(../../CSS/Assests/static/Inter_28pt-ExtraBold.ttf);
+}
+.aboutUs-section .firstCol h1{
+    font-size: 50px;
+}
+.FindProgarmsBtn , .seeMore-Btn{
+    background-color: goldenrod;
+    border-radius: 8px !important;
+}
+.animationDiv{
+    z-index: 1;
+    transition: all .8s ease-in-out;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+.top-60{
+    top: 60px !important;
+}
+.videoCover{
+    z-index: 2;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.202);
+    height: calc(100% - 5px) !important;
+}
+.videoCover.hide{
+    display: none !important;
+}
+.videoCover .rounded-circle{
+    width: 65px;
+    height: 65px;
+    color: goldenrod !important;
+}
+
+main .container{
+    max-width: 1100px;
+}
+#allPrograms{
+    padding: 50px 0px;
+}
+main .card-header h5.collapsed i.fa-minus{
+    display: none;
+}
+main .card-header h5.collapsed i.fa-plus{
+    display: block;
+}
+main .card-header h5:not(.collapsed) i.fa-minus{
+    display: block;
+}
+main .card-header h5:not(.collapsed) i.fa-plus{
+    display: none;
+}
+.singleProgram .lessonThumbnail{
+    max-width: 600px;
+    margin: auto;
+}

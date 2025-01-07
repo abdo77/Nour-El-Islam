@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../CSS/shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../CSS/shared/ripple.css">
+    <link rel="stylesheet" href="../../CSS/shared/owlCarousel.css">
+    <link rel="stylesheet" href="../../CSS/LandingPage/shared.css">
+    <link rel="stylesheet" href="../../CSS/LandingPage/programs.css">
+</head>
+<body dir="ltr">
+    <!-- Header -->
+    <header class="position-fixed collapsed  top-0 w-100 start-0 py-3 shadow-sm">
+        <div class="container d-flex align-items-center p-2 ">
+            <div class="logo-container">
+                <a href="">
+                    <img src="../../CSS/Assests/WhatsApp Image 2024-07-30 at 09.08.31_28db843e.png"  alt="">
+                </a>
+            </div>
+            <ul class="nav navbar ms-auto me-0 d-flex align-items-center">
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">About</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">Services</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="contactUS.html">Contact Us</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="About.html">Pricing</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="d-block text-decoration-none text-dark p-2 px-3" href="FAQ.html">FAQ</a>
+                </li>
+                <li class="nav-item position-relative mx-1">
+                    <a class="d-flex align-items-center text-decoration-none justify-content-center text-dark p-2" href="#"><i class="fa fa-language me-2 "></i> <i style="font-size: 12px;" class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu language d-block shadow border-0 lang-container position-absolute rounded-3 p-1 top-100 start-0">
+                        <a href="#" id="Arabic" class="dropdown-item rounded-3">
+                            AR
+                        </a>
+                        <a href="#" id="English" class="dropdown-item rounded-3">
+                            EN
+                        </a>
+                        <a href="#" id="French" class="dropdown-item rounded-3">
+                            FR
+                        </a>
+                        
+                    </ul>
+                </li>
+                <li class="nav-item ms-4">
+                    <a href="" class="d-block btn rounded-3 shadow getStartedLink  text-decoration-none text-dark p-2 px-3 fw-bold text-white rpl rpl-dark" href="">Get Started</a>
+                </li>
+            </ul>
+            <button class="btn menuBtn text-center shadow-none border-0 ms-auto p-1">
+                <div class="my-1 mt-0"></div>
+                <div class="my-1 w-75 mx-auto"></div>
+                <div class="my-1 mb-0"></div>
+            </button>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- about us section -->
+         <section class="aboutUs-section pb-5">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-lg-6 col-12 my-auto firstCol position-relative">
+                        <div class=" w-100 ">
+                            <h1 class="" style="font-family: 'bold inter';">
+                                Find the best program for you to learn Arabic , Quran , etc...
+                            </h1>
+                            <p class="text-muted mb-4"> laboriosam aspernatur nostrum sit debitis minima assumenda, sunt doloremque. Aliquid ea odio numquam voluptate saepe repellat?</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 position-relative my-auto">
+                        <div class=" w-100 position-relative">
+                            <!-- <img src="../../CSS/Assests/360_F_97156022_JDh67aSV5HqqY5c098JNJvZHk7aeWSMg (1).png" alt="" class="img-fluid w-100"> -->
+                            <div class="lessonThumbnail mb-3 position-relative rounded-4 overflow-hidden">
+                                <div class="videoCover rounded-3 d-flex w-100 h-100 align-items-center justify-content-center position-absolute start-0 top-0">
+                                    <div class="rounded-circle playerBtn bg-white d-flex align-items-center justify-content-center">
+                                        <h5 class="m-0"><i class="fa fa-play "></i></h5>
+                                    </div>
+                                </div>
+                                <video id="video" src="../../css/Assests/YG - Out On Bail (Official Video)(480P).mp4"  class="w-100 rounded-3" poster="../../CSS/Assests/download (3).jpeg"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <div class="container">
+            <div class="accordion  mb-5" id="allPrograms">
+                <div class="card border-0 mt-3 singleProgram shadow rounded-10 overflow-hidden">
+                  <div class="card-header bg-white border-0" id="headingOne">
+                    <h5 class="mb-0 d-flex  align-items-center collapsed btn " type="button" data-bs-toggle="collapse" data-bs-target="#ArabicProgram" aria-expanded="true" aria-controls="ArabicProgram">
+                      <p style="font-family: 'Inter light bold'; font-size: 30px;" class="mb-0"  >
+                        Arabic Language Program 
+                      </p>
+                      <i class="fa fa-plus ms-auto"></i>
+                      <i class="fa fa-minus ms-auto"></i>
+                    </h5>
+                  </div>
+              
+                  <div id="ArabicProgram" class="collapse border-bottom  " aria-labelledby="headingOne" data-bs-parent="#ArabicProgram">
+                    <div class="card-body">
+                      <ol class="main-font2">
+                        <li>
+                            <h5 class="programTitle" style="font-family: 'bold Inter';">
+                                Reading
+                            </h5>
+                            <p class="programDescribtion ">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nobis iste corporis molestiae saepe possimus, fuga totam sed numquam dolorem aperiam, veniam hic illum illo. Eaque ea dolores consequuntur voluptatem!  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, eos molestias rem doloribus cum cumque officiis ab perspiciatis magnam harum repudiandae natus sint illo reiciendis. Praesentium modi esse architecto possimus.
+                            </p>
+                            <div class="lessonThumbnail mb-3 position-relative rounded-4 overflow-hidden">
+                                <div class="videoCover rounded-3 d-flex w-100 h-100 align-items-center justify-content-center position-absolute start-0 top-0">
+                                    <div class="rounded-circle playerBtn bg-white d-flex align-items-center justify-content-center">
+                                        <h5 class="m-0"><i class="fa fa-play "></i></h5>
+                                    </div>
+                                </div>
+                                <video id="video" controls src="../../css/Assests/YG - Out On Bail (Official Video)(480P).mp4"  class="w-100 rounded-3" poster="../../CSS/Assests/download (3).jpeg"></video>
+                            </div>
+                        </li>
+                        <hr>
+                        <li>
+                            <h5 class="programTitle" style="font-family: 'bold Inter';">
+                                Writting
+                            </h5>
+                            <p class="programDescribtion ">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nobis iste corporis molestiae saepe possimus, fuga totam sed numquam dolorem aperiam, veniam hic illum illo. Eaque ea dolores consequuntur voluptatem!  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, eos molestias rem doloribus cum cumque officiis ab perspiciatis magnam harum repudiandae natus sint illo reiciendis. Praesentium modi esse architecto possimus.
+                            </p>
+                            <div class="lessonThumbnail mb-3 position-relative rounded-4 overflow-hidden">
+                                <div class="videoCover rounded-3 d-flex w-100 h-100 align-items-center justify-content-center position-absolute start-0 top-0">
+                                    <div class="rounded-circle playerBtn bg-white d-flex align-items-center justify-content-center">
+                                        <h5 class="m-0"><i class="fa fa-play "></i></h5>
+                                    </div>
+                                </div>
+                                <video id="video" controls src="../../css/Assests/YG - Out On Bail (Official Video)(480P).mp4"  class="w-100 rounded-3" poster="../../CSS/Assests/download (3).jpeg"></video>
+                            </div>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+         </div>
+         
+              
+    </main>
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Nour El Islam</h5>
+                        </li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Home</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Contact Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Customes</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Prices</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Nour El Islam</h5>
+                        </li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Home</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none p-2 ps-0 text-muted d-block fw-bold" href="">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <ul class="quickLinks list-unstyled ps-0">
+                        <li>
+                            <h5 style="font-family: 'bold Inter';">Follow Us on</h5>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <a class="text-dark text-decoration-none fs-4 mx-2 ms-0 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a class="text-dark text-decoration-none fs-4 mx-2 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-dark text-decoration-none fs-4 mx-2 p-2 ps-0 text-muted d-block fw-bold" href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <label style="font-family: 'bold Inter';" class="fs-5 mt-5 mb-2" for="follow">Follow The Best</label>
+                            <div class="input-group w-100 position-relative" style="max-width: 300px;">
+                                <input type="text" class="form-control shadow-none rounded-2 pe-4">
+                                <i class="fa fa-arrow-right position-absolute h-100 end-0 top-0 px-2 d-flex align-items-center " style="cursor: pointer;z-index: 3;">
+
+                                </i>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="copyRights border-top py-4 text-center">
+                © 2024 SolTech. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="../../JS/shared/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/shared/bootstrap.min.js"></script>
+    <script src="../../JS/shared/ripple.js"></script>
+    <script src="../../JS/shared/owlCarousel.js"></script>
+    <script src="../../JS/LandingPage/shared.js"></script>
+    <script src="../../JS/LandingPage/programs.js"></script>
+</body>
+</html>

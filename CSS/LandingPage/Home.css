@@ -92,3 +92,18 @@
         width: 100% !important;
     }
 }
+
+.videoCover{
+    z-index: 2;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.202);
+    height: calc(100% - 5px) !important;
+}
+.videoCover.hide{
+    display: none !important;
+}
+.videoCover .rounded-circle{
+    width: 65px;
+    height: 65px;
+    color: goldenrod !important;
+}
